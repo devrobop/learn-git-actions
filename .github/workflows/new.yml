@@ -1,4 +1,5 @@
 name: Self Hosted Runners
+on: [push, workflow_dispatch]
 jobs: 
   DEV: 
     runs-on: self-hosted
@@ -8,4 +9,3 @@ jobs:
         hostname
         ls
         ip a
-        
