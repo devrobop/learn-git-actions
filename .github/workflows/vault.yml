@@ -16,7 +16,7 @@ jobs:
         id: import-secrets
         uses: hashicorp/vault-action@v2
         with:
-          url: https://vault-internal.rdevopsb80.online:8200
+          url: https://vault-internal.devrobo.online:8200
           token: ${{ secrets.VAULT_TOKEN }}
           tlsSkipVerify: true
           secrets: |
